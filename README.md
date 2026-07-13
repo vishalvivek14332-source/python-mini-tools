@@ -1,34 +1,59 @@
 # Python Mini Tools
 
-A collection of simple yet useful Python utilities for everyday tasks and automation.
+Accurated collection of lightweight Python utilities designed to simplify everyday tasks and automation. Each tool is self-contained, easy to use, and serves as a practical example of clean Python scripting.
 
 ## Included Tools
 
-- **Password Generator** – Create strong and secure passwords.
-- **File Organizer** – Automatically sort files into folders by type.
-- **QR Code Generator** – Generate QR codes from text or URLs.
-- **Weather CLI** – Get current weather information from the command line.
-- **Expense Tracker** – Record and analyze your daily expenses.
+| Tool | Description |
+|------|-------------|
+| Password Generator | Generate strong, customizable passwords for improved security. |
+| File Organizer | Automatically sort files into folders based on their type or extension. |
+| QR Code Generator | Create QR codes from text, links, or other data. |
+| Weather CLI | Retrieve current weather information directly from the command line. |
+| Expense Tracker | Record, manage, and analyze daily expenses with ease. |
 
 ## Requirements
 
-- Python 3.8 or later
-- Dependencies listed in each tool’s directory (if applicable)
+- Python 3.8 or newer
+- Additional dependencies listed within individual tool directories
 
-## Getting Started
+## Installation
 
-1. Clone the repository:
+```bash
+git clone https://github.com/vishalvivek14332-source/python-mini-tools.git
+cd python-mini-tools
+```
+
+## Usage
+
+1. Navigate to the folder of the desired utility.
+2. Install any required packages:
    ```bash
-   git clone https://github.com/vishalvivek14332-source/python-mini-tools.git
+   pip install -r requirements.txt
    ```
-2. Navigate to the desired tool’s folder.
-3. Install any required packages.
-4. Run the script using Python.
+3. Run the script according to the instructions in that tool’s README.
+
+## Project Structure
+
+```text
+python-mini-tools/
+├── expense_tracker/
+├── file_organizer/
+├── password_generator/
+├── qr_generator/
+├── weather_cli/
+├── requirements.txt
+└── README.md
+```
 
 ## Contributing
 
-Contributions, suggestions, and improvements are welcome. Feel free to open an issue or submit a pull request.
+Contributions are welcome! Feel free to open an issue to discuss improvements or submit a pull request with enhancements and bug fixes.
 
 ## License
 
-This project is open source and available under the MIT License.
+This project is distributed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+If you find this repository useful, consider giving it a ⭐ to support the project.
