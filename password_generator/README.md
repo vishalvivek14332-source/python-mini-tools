@@ -79,3 +79,7 @@ password_generator/
 ## 👨‍💻 Author
 
 Vishal Vivek
+
+## License
+
+This project is released under the MIT License.
