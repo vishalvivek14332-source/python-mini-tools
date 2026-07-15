@@ -43,3 +43,7 @@ Enter the desired city name when prompted.
 
 - Python 3.8+
 - requests
+
+## License
+
+This project is released under the MIT License.
